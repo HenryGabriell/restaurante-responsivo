@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth ;
+}
+
+body{
+    background: #333;
+    font-family: 'Manrope', sans-serif;
+}
+
+body::before{
+    position: fixed;
+    content: "";
+    left: -10px;
+    bottom: -10px;
+    height: 300px;
+    width: 300px;
+    background: #ff2e5f;
+    filter: blur(150px);
+    z-index: -1;
+}
+
+body::after{
+    position: fixed;
+    content: "";
+    right: -10px;
+    bottom: -10px;
+    height: 200px;
+    width: 200px;
+    background: #f9f53f;
+    filter: blur(150px);
+    z-index: -1;
+}
+
+.containerBx::after{
+    position: fixed;
+    content: "";
+    right: 30%;
+    bottom: 50%;
+    height: 100px;
+    width: 100px;
+    background: #f9f53f;
+    filter: blur(100px);
+    z-index: -1;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+header .logo{
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+header .logo span{
+    color: #ff0157;
+}
+
+header .logo span:nth-child(2){
+    color: #4dca1b;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    transform: 0.5s;
+}
