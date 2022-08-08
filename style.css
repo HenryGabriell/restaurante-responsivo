@@ -125,6 +125,82 @@ header a.btn1:hover{
     border-bottom-left-radius: 20px;
 }
 
+.banner{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+    padding-left: 200px;
+}
+
+.banner .containerBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .containerBox .contentBx{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    max-width: 643px;
+}
+
+.banner .containerBox .contentBx .a-img{
+    position:relative;
+    font-size: 0.8em;
+    color: #52e319;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+    background: #3e5a33;
+    width: 200px;
+}
+
+.banner .containerBox .contentBx .a-img img{
+    width: 40px;
+}
+
+.banner .containerBox .contentBx h1{
+    font-size: 5em;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.banner .containerBox .contentBx p{
+    color: #c9c5c5;
+    font-size: 1em;
+}
+
+.banner .containerBox .contentBx a.btn{
+    position: relative;
+    font-size: 1em;
+    color: white;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 15px 0;
+    width: 150px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 0.5s;
+}
+
+.banner .containerBox .contentBx a.btn1:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
 @media (max-width: 1200px){
     header{
         padding: 20px 50px;
