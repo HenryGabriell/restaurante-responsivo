@@ -130,7 +130,7 @@ header a.btn1:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 100px;
+    padding: 90px ;
     padding-left: 200px;
 }
 
@@ -172,6 +172,10 @@ header a.btn1:hover{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.banner .containerBox .contentBx h1 span{
+    color: #ff0157;
+}
+
 .banner .containerBox .contentBx p{
     color: #c9c5c5;
     font-size: 1em;
@@ -185,7 +189,7 @@ header a.btn1:hover{
     display: inline-block;
     padding: 10px 30px;
     margin: 15px 0;
-    width: 150px;
+    width: 160px;
     text-decoration: none;
     letter-spacing: 1px;
     border-top-left-radius: 20px;
@@ -193,11 +197,23 @@ header a.btn1:hover{
     transition: 0.5s;
 }
 
-.banner .containerBox .contentBx a.btn1:hover{
+.banner .containerBox .contentBx a.btn:hover{
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.banner .containerBox .imgBx{
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner .containerBox .imgBx img{
+    width: 500px;
 }
 
 
