@@ -221,7 +221,7 @@ header a.btn1:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 100px;
+    padding: 30px 50px;
 }
 
 .about .containerBox{
@@ -237,6 +237,62 @@ header a.btn1:hover{
     justify-content: flex-start;
     align-items: center;
 }
+
+.about .containerBox .imgBx img{
+    width: 500px;
+}
+
+.about .containerBox .contentBx{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 643px;
+}
+
+.about .containerBox .contentBx h5{
+    color: #ff0157;
+    font-size: 1.5em;
+}
+
+.about .containerBox .contentBx h1{
+    color: white;
+    font-size: 3em;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.about .containerBox .contentBx p{
+    color: #c9c5c5;
+    
+    margin-bottom: 20px;
+}
+
+.about .containerBox .contentBx a{
+    position: relative;
+    font-size: 1em;
+    color: white;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 15px 0;
+    width: 140px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 0.5s;
+}
+
+.banner .containerBox .contentBx a:hover{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+  
+
+
+
 
 
 @media (max-width: 1200px){
