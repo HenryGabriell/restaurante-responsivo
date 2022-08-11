@@ -473,6 +473,10 @@ header a.btn1:hover{
     text-align: justify;
 }
 
+.delivery .delivery_info .delivery_box:hover{
+    transform: translateY(-5px);
+}
+
 
 
 
