@@ -382,6 +382,45 @@ header a.btn1:hover{
     }
 }
 
+.item-menu .containerBox .cardBx h4{
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.item-menu .containerBox .cardBx p{
+    color: #c9c5c5;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.item-menu .containerBox .cardBx .price-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.item-menu .containerBox .cardBx .price-cart p{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+.item-menu .containerBox .cardBx .price-cart .icon{
+    height: 50px;
+    width: 50px;
+    background: #ff0157;
+    color: white;
+    font-size: 1.8em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 
 
