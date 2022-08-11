@@ -780,10 +780,7 @@ footer .footerBx .address a{
     .about .containerBox .imgBx{
         justify-content: center;
     }
-    .delivery {
-        display: flex;
-        
-    }
+    
 }
 
 @media (max-width: 950px){
@@ -799,4 +796,14 @@ footer .footerBx .address a{
         float:left;
         
     }
+    .banner .contentBx {
+        margin-left: 8%;
+    }
+    .imgBx img{
+        margin-right: 34%;
+    }   
+}
+
+@media (max-width: 775px){
+
 }
