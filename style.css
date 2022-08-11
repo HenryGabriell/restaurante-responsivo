@@ -424,6 +424,56 @@ header a.btn1:hover{
 }
 
 
+.delivery{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.delivery .delivery_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.delivery .delivery_info .delivery_box{
+    height: 290px;
+    width: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    margin: 20px;
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(40px);
+    transition: 0.6s;
+}
+
+.delivery .delivery_info .delivery_box .icon{
+    font-size: 3em;
+    color: white;
+    margin: 10px 0;
+}
+
+.delivery .delivery_info .delivery_box .infoBx h5{
+    font-size: 1.3em;
+    color: white;
+    margin: 10px 0;
+}
+
+.delivery .delivery_info .delivery_box .infoBx p{
+    color: #c9c5c5;
+    font-size: 0.7em;
+    text-align: justify;
+}
+
+
 
 
 
