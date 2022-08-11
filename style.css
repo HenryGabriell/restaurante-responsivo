@@ -575,7 +575,7 @@ footer{
 
 footer .footerBx{
     display: flex;
-    width: 1300px;
+    width: auto;
     justify-content: space-between;
 }
 
@@ -594,6 +594,7 @@ footer .footerBx h4{
 footer .footerBx .sci ul{
     display: flex;
     justify-content: center;
+    margin-right: 10%;
 }
 
 footer .footerBx .sci ul li{
@@ -619,37 +620,6 @@ footer .footerBx .sci ul li a:hover{
     transform: scale(0.9);
 }
 
-footer .footerBx .offer{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    max-width: 350px;
-}
-
-footer .footerBx .offer .inputBx{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .footerBx .offer .inputBx input{
-    padding: 15px 20px;
-    border: none;
-    outline: none;
-    margin-right: 10px;
-    border-radius: 10px;
-    font-size: 1em;
-}
-
-footer .footerBx .offer .inputBx button{
-    background: #ff0157;
-    color: white;
-    border: none;
-    outline: none;
-    padding: 15px 20px;
-    border-radius: 10px;
-}
-
 footer .footerBx .services{
     display: flex;
     justify-content: flex-start;
@@ -667,6 +637,18 @@ footer .footerBx .aboutBx{
     justify-content: flex-start;
     flex-direction: column;
 }
+
+
+.fim{
+    display: flex;
+    margin: 5px ;
+    justify-content: space-between;
+}
+
+footer .fim div{
+    margin-left: 80px;
+}
+
 
 footer .footerBx .aboutBx a{
     color: #c9c5c5;
@@ -742,5 +724,79 @@ footer .footerBx .address a{
         background-repeat: no-repeat;
         
     }
-    
+    section{
+        padding: 40px 50px;
+    }
+    /*footer .footerBx{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }*/
+    footer .footerBx{
+        display: flex;
+    }
+
+
+    footer .fim div{
+        margin-left: 70px;
+    }
+
+    .delivery .delivery_info .delivery_box{
+        display: flex;
+        height: 290px;
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+@media (max-width: 1000px){
+    .banner .containerBox .contentBx h1{
+        font-size: 4em;
+    }
+
+    .imgBx img{
+        margin-right: 60px;
+    }
+
+
+    .banner .containerBox .contactBx{
+        align-items: center;
+        text-align: center;
+        max-width: 80%;
+    }
+    .banner .containerBox .imgBx{
+        justify-content: center;
+    }
+    .about .containerBox{
+        flex-direction: column;
+    }
+    .about .containerBox .contactBx{
+        align-items: center;
+        text-align: center;
+        max-width: 80%;
+    }
+    .about .containerBox .imgBx{
+        justify-content: center;
+    }
+    .delivery {
+        display: flex;
+        
+    }
+}
+
+@media (max-width: 950px){
+    .delivery{
+        display: block;
+        margin-left: 10%;
+    }
+    #abc{
+        float: left;
+        
+    }
+    #abcd{
+        float:left;
+        
+    }
 }
