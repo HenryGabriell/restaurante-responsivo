@@ -760,7 +760,6 @@ footer .footerBx .address a{
         margin-right: 60px;
     }
 
-
     .banner .containerBox .contactBx{
         align-items: center;
         text-align: center;
@@ -805,5 +804,14 @@ footer .footerBx .address a{
 }
 
 @media (max-width: 775px){
-
+    .banner .containerBox .contentBx h1{
+        font-size: 3em;
+    }
+    .banner .contentBx {
+        margin-left: 10%;
+    }
+    .imgBx img{
+        height: 80%;
+    } 
 }
+
