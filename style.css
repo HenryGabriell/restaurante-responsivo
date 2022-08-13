@@ -828,6 +828,19 @@ footer .footerBx .address a{
 }
 
 @media(max-width: 600px){
-    
+    .banner .containerBox .contentBx h1{
+        font-size: 1.5em;
+    }
+    .banner .contentBx {
+        margin-left: 22%;
+    } 
+    .imgBx img{
+        height: 50%;
+        margin-right: 50%;
+    }
+    .banner .containerBox .contentBx .a-img{
+        height: 47px;
+        width: 160px;
+    }
 }
 
