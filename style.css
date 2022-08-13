@@ -801,6 +801,7 @@ footer .footerBx .address a{
     .about .containerBox .imgBx img{
         margin-left:40% ;
     }
+    
 }
 @media (max-width: 775px){
     .banner .containerBox .contentBx h1{
@@ -811,6 +812,9 @@ footer .footerBx .address a{
     }
     .imgBx img{
         height: 80%;
+    }
+    .about{
+        margin-top: -10%;
     }
     .about .containerBox{
         font-size: 0.9em;
@@ -859,6 +863,26 @@ footer .footerBx .address a{
     header a{
         
     }
+    .about{
+        margin-top: -20%;
+    }
+    .about .containerBox .imgBx img{
+        height: 60%;
+        padding-left: 50px;
+    }
+    .about .containerBox{
+        font-size: 0.7em;
+        margin: auto;
+        margin-right: 30%;
+    }
+    
+    .about .containerBox .contentBx p{
+        width: 300px;
+    }
+    .about .containerBox .contentBx a{
+        font-size: 15px;
+        padding-left: 8.5%;
+    }
 }
 
 @media(max-width: 600px){
@@ -868,7 +892,7 @@ footer .footerBx .address a{
     .banner .contentBx {
         margin-left: 22%;
     } 
-    .imgBx img{
+    .banner .imgBx img{
         height: 50%;
         margin-right: 50%;
     }
@@ -876,6 +900,19 @@ footer .footerBx .address a{
         height: 47px;
         width: 160px;
     }
+    .about .containerBox .imgBx img{
+        height: 45%;
+        padding-left: 140px;
+    }
+    
+    .about{
+        margin-top: -25%;
+        margin-bottom: -25%;
+    }
+    .about .containerBox{
+        margin-right: 60%;
+    }
+
     footer .footerBx{
         margin-top: -5%;
         margin-bottom: -5%; 
@@ -890,6 +927,17 @@ footer .footerBx .address a{
 @media(max-width:500px){
     footer .footerBx .sci{
         margin-left: 15%;
+    }
+    .about{
+        margin-top: -35%;
+    }
+    .about .containerBox{
+        margin: auto;
+        margin-right: 85%;
+    }
+    .about .containerBox .imgBx img{
+        height: 37%;
+        padding-left: 220px;
     }
     
 }
