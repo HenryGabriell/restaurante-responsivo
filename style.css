@@ -713,7 +713,8 @@ footer .footerBx .address a{
         background-size: 30px;
         background-repeat: no-repeat;
         cursor: pointer;
-        margin-left: 135px;
+        ;
+        /*margin-left: 135px;*/
         z-index: 1001;
         transition: 0.5s;
     }
@@ -832,6 +833,12 @@ footer .footerBx .address a{
     .banner .contentBx {
         margin-left: 13%;
     } 
+    header a.btn1{
+
+    }
+    header a{
+        
+    }
 }
 
 @media(max-width: 600px){
