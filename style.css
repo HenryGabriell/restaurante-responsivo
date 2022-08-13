@@ -727,11 +727,8 @@ footer .footerBx .address a{
     section{
         padding: 40px 50px;
     }
-    footer .footerBx{
-        display: flex;
-    }
-    footer .fim div{
-        margin-left: 70px;
+    footer {
+        width: auto;
     }
 
     .delivery .delivery_info .delivery_box{
@@ -766,7 +763,7 @@ footer .footerBx .address a{
     }
     .about .containerBox .imgBx img{
         height: 85%;
-        margin-left: 30%;
+        
     }
     .about .containerBox .contactBx{
         align-items: center;
@@ -789,17 +786,18 @@ footer .footerBx .address a{
         
     }
     #abcd{
-        float:left;
-        
+        float:left;  
     }
     .banner .contentBx {
         margin-left: 8%;
     }
     .imgBx img{
         margin-right: 34%;
-    }   
+    }
+    .about .containerBox .imgBx img{
+        margin-left:40% ;
+    }
 }
-
 @media (max-width: 775px){
     .banner .containerBox .contentBx h1{
         font-size: 3em;
@@ -809,8 +807,19 @@ footer .footerBx .address a{
     }
     .imgBx img{
         height: 80%;
-    } 
-    contato
+    }
+    .about .containerBox{
+        font-size: 0.9em;
+        margin-right: 32%;
+    }
+    .about .containerBox .imgBx img{
+        margin-left:65%;
+        height: 70%;
+    }
+    .contact .contactBx{
+        width: 95%;
+    }
+    
 }
 
 @media(max-width: 670px){
