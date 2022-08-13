@@ -727,17 +727,9 @@ footer .footerBx .address a{
     section{
         padding: 40px 50px;
     }
-    /*footer .footerBx{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 100%;
-    }*/
     footer .footerBx{
         display: flex;
     }
-
-
     footer .fim div{
         margin-left: 70px;
     }
@@ -769,7 +761,12 @@ footer .footerBx .address a{
         justify-content: center;
     }
     .about .containerBox{
-        flex-direction: column;
+        width: 900px;
+        margin-right: 15%;
+    }
+    .about .containerBox .imgBx img{
+        height: 85%;
+        margin-left: 30%;
     }
     .about .containerBox .contactBx{
         align-items: center;
@@ -779,6 +776,7 @@ footer .footerBx .address a{
     .about .containerBox .imgBx{
         justify-content: center;
     }
+    sobre nós
     
 }
 
@@ -813,6 +811,7 @@ footer .footerBx .address a{
     .imgBx img{
         height: 80%;
     } 
+    contato
 }
 
 @media(max-width: 670px){
