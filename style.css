@@ -830,10 +830,6 @@ footer .footerBx .address a{
     .contact .contactBx{
         width: 95%;
     }
-    /*.delivery {
-        display: block;
-        flex-direction: column;
-    }*/
     #del1{
         float: none;
     }
@@ -904,6 +900,9 @@ footer .footerBx .address a{
         font-size: 15px;
         padding-left: 8.5%;
     }
+    .contact .contactBx{
+        width: 110%;
+    }
 }
 
 @media(max-width: 600px){
@@ -932,6 +931,10 @@ footer .footerBx .address a{
     }
     .about .containerBox{
         margin-right: 60%;
+    }
+    .contact .contactBx .input-row{
+        display: block;
+        
     }
 
     footer .footerBx{
