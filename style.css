@@ -736,9 +736,8 @@ footer .footerBx .address a{
         display: flex;
         height: 290px;
         width: 200px;
-        align-items: center;
-        justify-content: center;
-
+        margin: auto 20px;
+        
     }
 }
 @media (max-width: 1000px){
@@ -783,14 +782,18 @@ footer .footerBx .address a{
 @media (max-width: 950px){
     .delivery{
         display: block;
-        margin-left: 10%;
+        margin-left: 10%; 
     }
-    #abc{
+    #del3{
         float: left;
-        
+        margin-top: 5%;
     }
-    #abcd{
-        float:left;  
+    #del1{
+        float:left; 
+         
+    }
+    #del4{
+        margin-top: 5%;
     }
     .banner .contentBx {
         margin-left: 8%;
@@ -826,6 +829,24 @@ footer .footerBx .address a{
     }
     .contact .contactBx{
         width: 95%;
+    }
+    /*.delivery {
+        display: block;
+        flex-direction: column;
+    }*/
+    #del1{
+        float: none;
+    }
+    #del2{
+        margin-top: 5%;
+    }
+    #del3{
+        float: none;
+    }
+    .delivery{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
     footer .footerBx{
         display:block ;
