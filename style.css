@@ -933,8 +933,10 @@ footer .footerBx .address a{
         margin-right: 60%;
     }
     .contact .contactBx .input-row{
-        display: block;
-        
+        display: block; 
+    }
+    .contact .heading{
+        font-size: 2.5em;
     }
 
     footer .footerBx{
