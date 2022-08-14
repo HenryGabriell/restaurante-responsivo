@@ -63,9 +63,8 @@ header{
 }
 
 header.sticky{
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(42px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 header .logo{
@@ -723,7 +722,7 @@ footer .footerBx .address a{
         background-position: center;
         background-size: 25px;
         background-repeat: no-repeat;
-        
+        margin-left: 3%;
     }
     section{
         padding: 40px 50px;
@@ -804,6 +803,10 @@ footer .footerBx .address a{
     .about .containerBox .imgBx img{
         margin-left:40% ;
     }
+    .toggle.active{
+        margin-left: 7%;
+    }
+    
     
 }
 @media (max-width: 775px){
@@ -864,6 +867,9 @@ footer .footerBx .address a{
     footer .footerBx .fim{
         margin-top: 5%;
     }
+    .toggle.active{
+        margin-left: 11%;
+    }
     
 }
 
@@ -912,6 +918,9 @@ footer .footerBx .address a{
     }
     .contact .contactBx{
         width: 110%;
+    }
+    .toggle.active{
+        margin-left: 11%;
     }
 }
 
@@ -993,6 +1002,9 @@ footer .footerBx .address a{
     footer .footerBx .sci{
         margin-left: 20%;
     }
+    .toggle.active{
+        margin-left: 2%;
+    }
     
 }
 @media(max-width:500px){
@@ -1009,6 +1021,9 @@ footer .footerBx .address a{
     .about .containerBox .imgBx img{
         height: 37%;
         padding-left: 220px;
+    }
+    .toggle.active{
+        margin-left: 6%;
     }
     
 }
