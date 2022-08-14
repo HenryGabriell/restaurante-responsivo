@@ -924,8 +924,10 @@ footer .footerBx .address a{
         margin-right: 50%;
     }
     .banner .containerBox .contentBx .a-img{
-        height: 47px;
-        width: 160px;
+        height: 45px;
+        width: 130px;
+        font-size: 0.7em;
+        padding: 0px 8px;
     }
     header{
         padding: 15px 5px;
