@@ -63,7 +63,6 @@ header{
 }
 
 header.sticky{
-    padding: 20px 100px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(42px);
@@ -704,6 +703,9 @@ footer .footerBx .address a{
         font-size: 24px;
         margin: 10px 0;
     }
+    header  .logo{
+        padding-right: 10%;
+    }
     .toggle{
         position: relative;
         width: 30px;
@@ -874,11 +876,15 @@ footer .footerBx .address a{
     .banner .contentBx {
         margin-left: 13%;
     } 
-    header a.btn1{
-
+    header{
+        padding: 25px 20px;
+        margin: auto;
     }
-    header a{
-        
+    header a.btn1{
+        font-size: 0.9em;
+    }
+    header .logo{
+        font-size: 22px;
     }
     .about{
         margin-top: -20%;
@@ -919,6 +925,20 @@ footer .footerBx .address a{
     .banner .containerBox .contentBx .a-img{
         height: 47px;
         width: 160px;
+    }
+    header{
+        padding: 15px 5px;
+    }
+    header a.btn1{
+        font-size: 0.8em;
+    }
+    header .logo{
+        font-size: 20px;
+    }
+    header a.btn1{
+        margin: 0;
+        padding: 8px 20px;
+        letter-spacing: 0.8px;
     }
     .about .containerBox .imgBx img{
         height: 45%;
