@@ -807,6 +807,9 @@ footer .footerBx .address a{
     
 }
 @media (max-width: 775px){
+    .containerBx{
+        margin-top: -5%;
+    }
     .banner .containerBox .contentBx h1{
         font-size: 3em;
     }
@@ -913,8 +916,12 @@ footer .footerBx .address a{
 }
 
 @media(max-width: 600px){
+    .containerBx{
+        margin-top: -10%;
+    }
     .banner .containerBox .contentBx h1{
-        font-size: 1.5em;
+        font-size: 2.1em;
+        margin-bottom: 5%;
     }
     .banner .contentBx {
         margin-left: 22%;
@@ -928,7 +935,16 @@ footer .footerBx .address a{
         width: 130px;
         font-size: 0.7em;
         padding: 0px 8px;
+        margin-bottom: 5%;
     }
+
+    .banner .containerBox .contentBx p {
+        font-size: 0.8em;
+    }
+    .banner .containerBox .contentBx a.btn{
+        margin-top: 18%;
+    }
+
     header{
         padding: 15px 5px;
     }
