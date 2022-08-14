@@ -5,7 +5,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scroll-behavior:smooth ;
+    scroll-behavior:smooth;
+}
+html{
+    overflow-x: hidden;
 }
 
 body{
@@ -1026,6 +1029,22 @@ footer .footerBx .address a{
     .toggle.active{
         margin-left: 7%;
     }
+    .about .containerBox .contentBx h1{
+        font-size: 2.6em;
+    }
+    .contact .heading{
+        font-size: 2.3em;
+    }
+    .contact .contactBx .input-row{
+        margin-right: 5%;
+    }
+    .about .containerBox .contentBx p{
+        width: 250px;
+    }
+    .about .containerBox{
+        margin-right: 93%;
+    }
+
     
 }
 
