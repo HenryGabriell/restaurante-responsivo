@@ -715,8 +715,6 @@ footer .footerBx .address a{
         background-size: 30px;
         background-repeat: no-repeat;
         cursor: pointer;
-        ;
-        /*margin-left: 135px;*/
         z-index: 1001;
         transition: 0.5s;
     }
@@ -885,6 +883,9 @@ footer .footerBx .address a{
     }
     header .logo{
         font-size: 22px;
+    }
+    .toggle{
+        height: 25px;
     }
     .about{
         margin-top: -20%;
