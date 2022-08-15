@@ -926,6 +926,9 @@ footer .footerBx .address a{
     .toggle.active{
         margin-left: 12%;
     }
+    .contact .contactBx .input-row .inputBx textarea{
+        height: 160px;
+    }
 }
 
 @media(max-width: 600px){
@@ -1016,33 +1019,43 @@ footer .footerBx .address a{
         margin-left: 15%;
     }
     .about{
-        margin-top: -35%;
+        margin-top: -40%;
     }
     .about .containerBox{
-        margin: auto;
-        margin-right: 85%;
+        margin-right: 105%;
     }
     .about .containerBox .imgBx img{
-        height: 37%;
-        padding-left: 220px;
+        height: 38%;
+        padding-left: 230px;
+        margin-bottom: 40px;
     }
     .toggle.active{
         margin-left: 7%;
     }
     .about .containerBox .contentBx h1{
-        font-size: 2.6em;
+        font-size: 2.3em;
+        width: 70%;
     }
     .contact .heading{
-        font-size: 2.3em;
+        font-size: 2.1em;
     }
+
     .contact .contactBx .input-row{
-        margin-right: 5%;
+        margin-right: 9%;
+        font-size: 0.85em;
     }
     .about .containerBox .contentBx p{
-        width: 250px;
+        width: 240px;
     }
-    .about .containerBox{
-        margin-right: 93%;
+    
+    footer .footerBx .fim{
+        margin-right: 16px;
+    }
+    footer .footerBx h4{
+        font-size: 1.4em;
+    }
+    footer .footerBx .fim a{
+        font-size: 0.8em;
     }
 
     
